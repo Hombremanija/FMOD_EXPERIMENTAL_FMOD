@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e9e20b36-c351-406a-bfe9-3ee0bf89935e}">
+		<property name="name">
+			<value>Scene</value>
+		</property>
+		<relationship name="folder">
+			<destination>{95dbd06b-036c-42a8-a698-5eb710b80305}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{af2d0465-b193-4553-bfba-dcb9796bef80}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{af2d0465-b193-4553-bfba-dcb9796bef80}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Main Menu</value>
+			<value>Level 1</value>
+			<value>Level 2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
