@@ -115,11 +115,23 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{db53ed69-2152-4357-b97c-4859ca567f1c}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{4b4fb213-873d-4131-9378-15ab939d5735}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{158d0b8d-569b-4c79-83bf-27a39398c492}">
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{760814df-b3d0-42d4-bca2-f3eeaa578b27}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{c282788c-8186-48cb-9a77-a5fc47071374}</destination>
 		</relationship>
@@ -128,6 +140,12 @@
 		<property name="start">
 			<value>2</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{094fba13-ff8e-4a12-a787-b56567a29129}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{695091f9-68e2-481f-95a9-b06436b72b1f}</destination>
 		</relationship>
@@ -156,6 +174,39 @@
 	</object>
 	<object class="MixerBusPanner" id="{b5876661-e064-4064-ab8a-417f038b087c}" />
 	<object class="MixerBusFader" id="{2639174b-7d7f-4293-be48-db0b3eec9d72}" />
+	<object class="ADSRModulator" id="{db53ed69-2152-4357-b97c-4859ca567f1c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{760814df-b3d0-42d4-bca2-f3eeaa578b27}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{094fba13-ff8e-4a12-a787-b56567a29129}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="Automator" id="{545e4e5a-1996-408d-9690-525b6d3bbcb9}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
