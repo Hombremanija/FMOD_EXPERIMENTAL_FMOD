@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{e9b9aa02-bea8-49b8-a7a2-ee1e2dabd81f}">
+	<object class="EncodableAsset" id="{365985db-88e8-4f62-be2f-5cc56c2c3aab}">
 		<property name="assetPath">
-			<value>Steps Soft/</value>
+			<value>Music/Main Menu/Level 1/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{763cf3a2-ad4d-42eb-895d-d1c95724b1c1}</destination>
